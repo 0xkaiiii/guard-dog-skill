@@ -1,12 +1,13 @@
 # 发布说明
 
-这个仓库由 ClawHub 上的 `@staroldtrace/guard-dog` Skill 迁移整理而来，定位为 **OpenClaw 专用 Skill**。
+这个仓库由 ClawHub 上的 `@staroldtrace/guard-dog` Skill 迁移整理而来，定位为 **OpenClaw 专用 Skill**。ClawHub 上的原始 Skill 也是作者本人编写的。
 
 ## 来源
 
 - ClawHub 页面: https://clawhub.ai/staroldtrace/guard-dog
 - ClawHub 安装命令: `openclaw skills install @staroldtrace/guard-dog`
 - 迁移版本: `2.1.3`
+- 原始作者: staroldtrace
 
 ## GitHub 仓库结构
 
