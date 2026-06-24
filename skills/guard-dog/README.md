@@ -1,6 +1,6 @@
 # 🐕 犬次郎 (Guard-Dog)
 
-**AI 安全看门狗 - 拦截风险操作，保护你的数据安全**
+**OpenClaw 专用 AI 安全看门狗 - 拦截风险操作，保护你的数据安全**
 
 [![Version](https://img.shields.io/badge/version-2.1.3-blue)](https://clawhub.ai/staroldtrace/guard-dog)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -10,7 +10,7 @@
 
 ## 📖 简介
 
-犬次郎是一个 AI 安全技能，核心功能是**拦截风险操作**，防止 AI 误操作或被提示词注入攻击导致数据财产损失。
+犬次郎是一个 OpenClaw AI 安全技能，核心功能是**拦截风险操作**，防止 AI 误操作或被提示词注入攻击导致数据财产损失。
 
 **核心原则**: 没有授权码，一切风险操作都免谈。
 
