@@ -10,6 +10,8 @@
 
 ## 📖 简介
 
+ClawHub 上的 `@staroldtrace/guard-dog` 原始 Skill 也是作者本人编写的；本仓库保留原始 OpenClaw Skill 内容并整理为 GitHub 版本。
+
 犬次郎是一个 OpenClaw AI 安全技能，核心功能是**拦截风险操作**，防止 AI 误操作或被提示词注入攻击导致数据财产损失。
 
 **核心原则**: 没有授权码，一切风险操作都免谈。
