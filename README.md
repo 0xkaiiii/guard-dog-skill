@@ -1,6 +1,6 @@
 # 🐕 犬次郎 (Guard-Dog)
 
-**AI 安全看门狗 - 拦截风险操作，保护你的数据安全**
+**OpenClaw 专用 AI 安全看门狗 - 拦截风险操作，保护你的数据安全**
 
 [![Version](https://img.shields.io/badge/version-2.1.3-blue)](https://clawhub.ai/staroldtrace/guard-dog)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -8,13 +8,12 @@
 
 ---
 
-## GitHub 迁移说明
+## 定位
 
-本仓库由 ClawHub 上的 `@staroldtrace/guard-dog` Skill 迁移整理而来，保留原始 Skill 内容，并补充 Codex 插件清单：
+犬次郎是面向 **OpenClaw** 运行环境设计的专用 Skill。仓库由 ClawHub 上的 `@staroldtrace/guard-dog` 迁移整理而来，保留原始 OpenClaw Skill 内容和引用文档。
 
 ```text
 .
-├── .codex-plugin/plugin.json
 ├── skills/guard-dog/SKILL.md
 ├── skills/guard-dog/references/
 ├── LICENSE
@@ -27,7 +26,7 @@
 
 ## 📖 简介
 
-犬次郎是一个 AI 安全技能，核心功能是**拦截风险操作**，防止 AI 误操作或被提示词注入攻击导致数据财产损失。
+犬次郎是一个 OpenClaw AI 安全技能，核心功能是**拦截风险操作**，防止 AI 误操作或被提示词注入攻击导致数据财产损失。
 
 **核心原则**: 没有授权码，一切风险操作都免谈。
 
@@ -62,13 +61,13 @@
 ### 1. 安装
 
 ```bash
-# 作为 Codex 插件仓库使用
-git clone https://github.com/iamzhukai-png/guard-dog-skill.git
-
 # 从 ClawHub 安装
 clawhub install guard-dog
 
-# 或本地安装
+# 或通过 OpenClaw CLI 安装
+openclaw skills install @staroldtrace/guard-dog
+
+# 或本地安装到 OpenClaw skills 目录
 cp -r skills/guard-dog ~/.openclaw/workspace/skills/
 ```
 
