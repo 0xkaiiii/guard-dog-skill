@@ -10,7 +10,7 @@
 
 ## 定位
 
-犬次郎是面向 **OpenClaw** 运行环境设计的专用 Skill。仓库由 ClawHub 上的 `@staroldtrace/guard-dog` 迁移整理而来，保留原始 OpenClaw Skill 内容和引用文档。
+犬次郎是面向 **OpenClaw** 运行环境设计的专用 Skill。ClawHub 上的 `@staroldtrace/guard-dog` 原始 Skill 也是作者本人编写的；本仓库是在此基础上迁移整理而来，保留原始 OpenClaw Skill 内容和引用文档。
 
 ```text
 .
