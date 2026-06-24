@@ -1,6 +1,6 @@
 # 发布说明
 
-这个仓库由 ClawHub 上的 `@staroldtrace/guard-dog` Skill 迁移整理而来。
+这个仓库由 ClawHub 上的 `@staroldtrace/guard-dog` Skill 迁移整理而来，定位为 **OpenClaw 专用 Skill**。
 
 ## 来源
 
@@ -12,8 +12,6 @@
 
 ```text
 .
-├── .codex-plugin/
-│   └── plugin.json
 ├── skills/
 │   └── guard-dog/
 │       ├── SKILL.md
@@ -32,6 +30,6 @@
 
 发布前应检查：
 
-- `.codex-plugin/plugin.json` 可通过 Codex 插件校验。
-- `skills/guard-dog/SKILL.md` 可通过 Skill 快速校验。
+- `skills/guard-dog/SKILL.md` 保持 OpenClaw/ClawHub 可安装。
+- `README.md` 只描述 OpenClaw/ClawHub 安装方式，不加入 Codex 插件安装方式。
 - `README.md` 中的版本号与 `SKILL.md` frontmatter 保持一致。
